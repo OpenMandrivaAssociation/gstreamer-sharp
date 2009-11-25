@@ -1,5 +1,5 @@
 %define name gstreamer-sharp
-%define version 0.9.1
+%define version 0.9.2
 %define release %mkrel 1
 %define api 0.10
 

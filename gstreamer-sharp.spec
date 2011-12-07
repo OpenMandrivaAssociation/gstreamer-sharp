@@ -1,6 +1,6 @@
 %define name gstreamer-sharp
 %define version 0.9.2
-%define release %mkrel 3
+%define release %mkrel 4
 %define api 0.10
 
 Summary: C#/CLI bindings for GStreamer

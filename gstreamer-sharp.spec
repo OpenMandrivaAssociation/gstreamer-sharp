@@ -8,6 +8,7 @@ Name: %{name}
 Version: %{version}
 Release: %{release}
 Source0: http://gstreamer.freedesktop.org/src/%name/%{name}-%{version}.tar.bz2
+Patch0: gstreamer-sharp-0.9.2-glib-includes.patch
 License: LGPLv2+
 Group: System/Libraries
 Url: http://gstreamer.freedesktop.org/
@@ -45,6 +46,7 @@ This package provides API documentation for %{name}.
 
 %prep
 %setup -q
+%apply_patches
 
 %build
 %configure2_5x

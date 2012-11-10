@@ -1,0 +1,22 @@
+--- gstreamer-sharp-0.9.2/elementgen/gst-xmlinspect.c.glib	2011-12-07 11:04:36.725595035 +0100
++++ gstreamer-sharp-0.9.2/elementgen/gst-xmlinspect.c	2011-12-07 11:04:48.034592282 +0100
+@@ -24,7 +24,7 @@
+ 
+ #include <string.h>
+ #include <locale.h>
+-#include <glib/gprintf.h>
++#include <glib.h>
+ 
+ #include <gst/gst.h>
+ #include <gst/base/gstbasesrc.h>
+--- gstreamer-sharp-0.9.2/gstreamer-sharp/glue/glib.c.glib	2011-12-07 11:04:25.085596670 +0100
++++ gstreamer-sharp-0.9.2/gstreamer-sharp/glue/glib.c	2011-12-07 11:05:17.280588377 +0100
+@@ -20,7 +20,7 @@
+  */
+ 
+ 
+-#include <glib/gthread.h>
++#include <glib.h>
+ 
+ gboolean gstglibsharp_g_thread_supported (void);
+ 

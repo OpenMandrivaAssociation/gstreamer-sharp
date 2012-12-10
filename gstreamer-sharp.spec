@@ -85,3 +85,34 @@ fi
 %defattr(-,root,root)
 %_libdir/pkgconfig/%{name}-%{api}.pc
 %_datadir/gapi/gstreamer-api.xml
+
+
+%changelog
+* Wed Dec 07 2011 Götz Waschk <waschk@mandriva.org> 0.9.2-4mdv2012.0
++ Revision: 738522
+- fix build with new glib
+- yearly rebuild
+
+* Sun Dec 05 2010 Oden Eriksson <oeriksson@mandriva.com> 0.9.2-3mdv2011.0
++ Revision: 610988
+- rebuild
+
+* Fri Dec 11 2009 Götz Waschk <waschk@mandriva.org> 0.9.2-2mdv2010.1
++ Revision: 476295
+- rebuild for new webkit-sharp
+
+* Wed Nov 25 2009 Götz Waschk <waschk@mandriva.org> 0.9.2-1mdv2010.1
++ Revision: 470016
+- update to new version 0.9.2
+
+* Wed Sep 16 2009 Götz Waschk <waschk@mandriva.org> 0.9.1-1mdv2010.0
++ Revision: 443468
+- new version
+
+* Fri Sep 04 2009 Götz Waschk <waschk@mandriva.org> 0.9.0-1mdv2010.0
++ Revision: 431010
+- import gstreamer-sharp
+
+
+* Fri Sep  4 2009 Götz Waschk <waschk@mandriva.org> 0.9.0-1mdv2010.0
+- initial package

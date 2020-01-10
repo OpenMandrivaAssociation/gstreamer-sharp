@@ -46,7 +46,7 @@ This package provides API documentation for %{name}.
 
 %prep
 %setup -q
-%apply_patches
+%autopatch -p1
 
 %build
 %configure2_5x

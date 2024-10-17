@@ -11,7 +11,7 @@ Source0: http://gstreamer.freedesktop.org/src/%name/%{name}-%{version}.tar.bz2
 Patch0: gstreamer-sharp-0.9.2-glib-includes.patch
 License: LGPLv2+
 Group: System/Libraries
-Url: http://gstreamer.freedesktop.org/
+Url: https://gstreamer.freedesktop.org/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: mono-devel
 BuildRequires: gtk-sharp2-devel
